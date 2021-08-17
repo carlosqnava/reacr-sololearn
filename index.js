@@ -15,15 +15,16 @@ class Counter extends React.Component {
       <div>
         <div id="login">
           <p>nombre</p>
-          <input type="text" name="nombre"  />
+          <input type="text" name="nombre" />
           <p>contra</p>
           <input type="text" name="contra" />
           <br />
-          <button onClick={this.increment}>Ingresar</button>
+          <button onClick={this.setState.nombre = 'a'}>Ingresar</button>
         </div>
 
         <div>
-          <p>{this.statenombre}</p>
+          <p>{this.state.nombre}</p>
+          <p>{this.state.contra}</p>
         </div>
       </div>
     );
